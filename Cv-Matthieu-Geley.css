@@ -1,0 +1,107 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: tkupregular;
+	text-underline-offset: 2px;
+
+}
+
+@font-face {
+    font-family: 'tkupregular';
+    src: url('img/personalfont/tkup-webfont.woff2') format('woff2'),
+         url('img/personalfont/tkup-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+	background-color: #FFCB4A;
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 5px;
+}
+
+body {
+	background-color: #225FA1;
+}
+
+h1 {
+	text-justify: center;
+	text-align: center;
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+	text-decoration: wavy underline;
+	text-underline-offset: 5px;
+}
+
+h2 {
+	background-color: darkorchid;
+}
+
+h3 {
+	background-color: darkviolet;
+	text-decoration: red wavy underline;
+}
+
+.titre{
+	background-color: #FFCB4A;
+	font-family: 'tkupregular';
+	color: #225FA1;
+	font-size: 35px;
+	display: flex;
+	text-decoration: wavy underline;
+	text-decoration-thickness: 5px;
+	text-decoration-skip-ink: auto;
+	text-underline-offset: 10px;
+	align-items: center;	
+}
+
+.Tête {
+	padding-inline: 15px;
+	color: #A9A9A9;
+	text-underline-offset: 5px;
+}
+
+.Corps {
+	padding-inline: 25px;
+	color: #BFBFBF;
+}
+
+.Forme {
+	padding-inline: 35px;
+	color: #CBCBCB;
+}
+
+.Comp {
+	padding-inline: 45px;
+	color: #D4D4D4 ;
+}
+
+.Infor {
+	padding-inline: 55px;
+	color: #FFFFFF;
+}
+
+.lien {
+	color: dodgerblue;
+	text-justify: center;
+}
+
+.ind{
+	height: 35px;
+	width: auto;
+}
+
+.projets{
+	float: right;
+	padding-right: 25px;
+}
+.projet{
+	color: #FFCB4A;
+	font-size: 20px;
+}
+.home{
+	color: #FFCB4A;
+	font-size: 20px;
+}
